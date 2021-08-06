@@ -1,1 +1,1 @@
-web:unicorn covidpredictor.wsgi
+web: gunicorn covidpredictor.wsgi
