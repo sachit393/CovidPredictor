@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-zitk(#e8hw@f(k9*2cb7cmj73)d()12@yp9if#$*@#j9esk8$@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','covid-19-predictor-continuous.herokuapp.com']
 
 
 # Application definition
