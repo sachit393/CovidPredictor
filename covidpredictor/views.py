@@ -49,8 +49,9 @@ def result(request):
       for line in oldDataList:
         f.write(line)
         f.write("\n")
-
       if currentDate == oldDataList[len(oldDataList)-1][:10]:
+          f.close()
+      elif dailyCases == oldDataList[len(oldDataList)-1][11:]:
           f.close()
       else:
           f.write(currentDate +"," + dailyCases)
